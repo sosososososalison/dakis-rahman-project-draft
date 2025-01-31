@@ -1,0 +1,174 @@
+html{
+  color: white;
+  background-color:#5a92b2;
+  font-family: Monaco, Monospace;
+  text-align: center;
+}
+.title{
+  color:white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+.pet_world{
+  color:#f2f2cb;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Monaco, Monospace; 
+  text-align: center;
+  padding: 25px 15px ; 
+}
+.faq{
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Monaco, Monospace; 
+  text-align: left;
+   
+}
+
+.navbar {
+  display: flex;                
+  justify-content: center; 
+  align-items: center;
+  gap: 20px;
+  background-color: #afc5db;   
+  padding: 5px;              
+           
+}
+
+
+.nav-button {
+  padding: 5px 30px;
+  color:#dfc0ae;
+  font-family:Lucidia console, Monospace;
+  background-color:#364957;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+
+.nav-button:hover {
+  background-color: #dfc0ae;
+  color: #364957;
+}
+
+.description {
+  color:#eae4c4;
+  font-size: 20;
+  
+}
+
+img.pet {
+  width: 310px; 
+  height: 160px;
+  position: fixed; 
+  bottom: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+
+}
+img.logo {
+  width: 10%;
+  height: 10%;
+  text-align: center;
+}
+img.home {
+  width: 15%;
+  height: 15%;
+  text-align: center;
+}
+#left {
+  text-align: left
+}
+.container {
+display: flex;
+justify-content: space-between;
+}
+.column {
+display: flex;
+    flex-direction: column;
+gap: 10px;
+}
+.buttonItem {
+  padding: 5px 30px;
+  color:#dfc0ae;
+  font-family:Lucidia console, Monospace;
+  background-color:#364957;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+.buttonItem:hover {
+    background-color: #dfc0ae;
+  color: #364957;
+
+}
+#question {
+  width: 600px;
+  text-align: right;
+}
+.left, .right{
+display: flex;
+    flex-direction: column;
+gap: 10px
+}
+.buttonChoice {
+  padding: 5px 30px;
+  color:#dfc0ae;
+  font-family:Lucidia console, Monospace;
+  background-color:#364957;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-size: 30px;
+  
+}
+.buttonChoice:hover {
+    background-color: #dfc0ae;
+  color: #364957;
+}
+.left {
+  text-align: right;
+}
+.right {
+  text-align: left;
+}
+.foot {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin: 20px;
+}
+a {
+  padding: 20px;
+}
+
+/*links*/
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #6C8056;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+   font-size:1.5em;
+   font-family: "Pappyrus", Fantasy;
+}
+
+/* selected link */
+a:active {
+  color: #DED39C;
+}
+
